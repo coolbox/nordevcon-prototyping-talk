@@ -6,9 +6,31 @@ body {
   font-size: .75em;
 }
 
-h1, h2, p, ul { color: #0b0b0b; }
-h1 { font-size: 1.2em; font-weight: bold; }
-h2 { font-size: 1em; }
+h1, h2, p, ul { 
+  /*color: #e96a48;*/
+  color: #ffdd00;
+  margin: 0;
+  text-transform: capitalize;
+}
+
+h1 { 
+  font-size: 3em;
+  line-height: 115%;
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+
+h2 { 
+  font-size: 1.5em;
+  color: #fff;
+}
+
+h3 {
+  font-size: 3em;
+  color: #fff;
+  font-style: italic;
+  margin: 0;
+}
 
 a {
   color: #8bbf36;
@@ -21,8 +43,8 @@ a:not(:hover) {
 ul { font-size: 40px; }
 
 .stack {
-  background: #fff;
-  color: #fff;
+  font-family: 'Roboto', sans-serif;
+  background: #2b2b2b;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -34,6 +56,109 @@ ul { font-size: 40px; }
   padding: 40px 80px;
   width: 1280px;
   -webkit-transform: translate3d(0,0,0);
+}
+
+.stack::after {
+  content: "";
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#me::after {
+  background: url(./images/me.jpg) no-repeat 0 0;
+}
+
+#status::after {
+  background: url(./images/akin.jpg) no-repeat 0 0;
+}
+
+#sys_admin h1 {
+  font-size: 3.4em;
+}
+
+#sys_admin::after {
+  background: url(./images/sys_admin.gif) no-repeat 0 0;
+  background-size: cover;
+}
+
+#cash h1 {
+  font-size: 4em;
+  line-height: 115%;
+}
+
+#cash::after {
+  background: url(./images/cash-2.gif) no-repeat 0 0;
+  background-size: cover;
+}
+
+.curling {
+  text-align: center;
+}
+
+.curling h1, .curling h2 {
+  font-size: 3.3em;
+}
+
+.x-small h1 {
+  font-size: 2em;
+}
+
+.smaller h1 {
+  font-size: 3.2em;
+}
+
+.large h1 {
+  font-size: 4em;
+}
+
+.x-large h1 {
+  font-size: 5em;
+}
+
+.curling.special {
+  text-align: left;
+}
+
+.italic {
+  font-style: italic;
+}
+
+#idea::after {
+  background: url(./images/cat-1.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#prototype::after {
+  background: url(./images/cat-2.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#iknow::after {
+  background: url(./images/iknow.jpg) repeat 40px 0;
+  opacity: 1;
+}
+
+#circles::after {
+  background: url(./images/circles.jpg) repeat 40px -40px;
+  opacity: 1;
+}
+
+#cat-urling::after {
+  background: url(./images/cat-3.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#kiss::after {
+  background: url(./images/kiss.jpg) no-repeat 0 0;
+  background-size: cover; 
 }
 
 .active {
