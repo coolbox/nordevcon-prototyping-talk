@@ -69,12 +69,50 @@ ul { font-size: 40px; }
   z-index: -1;
 }
 
+#me h2 {
+  text-transform: none;
+}
+
 #me::after {
   background: url(./images/me.jpg) no-repeat 0 0;
 }
 
-#status::after {
-  background: url(./images/akin.jpg) no-repeat 0 0;
+#pandr::after {
+  background: url(./images/pandr.jpg) no-repeat 0 0;
+  opacity: 1;
+}
+
+#tfof::after {
+  background: url(./images/405.jpg) no-repeat 0 0;
+  opacity: 1;
+}
+
+#upstate h1 {
+  text-transform: none;
+}
+
+#upstate::after {
+  background: url(./images/upstate.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.7;
+}
+
+#pingle::after {
+  background: url(./images/pingle.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin::after {
+  background: url(./images/akin-normal.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#build::after {
+  background: url(./images/building-stuff.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.5;
 }
 
 #sys_admin h1 {
@@ -94,6 +132,18 @@ ul { font-size: 40px; }
 #cash::after {
   background: url(./images/cash-2.gif) no-repeat 0 0;
   background-size: cover;
+  opacity: 0.8;
+}
+
+#bakeoff::after {
+  background: url(./images/bakeoff.jpg) no-repeat 0 0;
+  background-size: cover;
+}
+
+#sochi::after {
+  background: url(./images/rainbowflag.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
 }
 
 .curling {
@@ -110,6 +160,10 @@ ul { font-size: 40px; }
 
 .smaller h1 {
   font-size: 3.2em;
+}
+
+.smaller h2 {
+  font-size: 2em;
 }
 
 .large h1 {
@@ -146,7 +200,7 @@ ul { font-size: 40px; }
 }
 
 #circles::after {
-  background: url(./images/circles.jpg) repeat 40px -40px;
+  background: url(./images/catcircles.jpg) repeat 40px -40px;
   opacity: 1;
 }
 
@@ -159,6 +213,96 @@ ul { font-size: 40px; }
 #kiss::after {
   background: url(./images/kiss.jpg) no-repeat 0 0;
   background-size: cover; 
+}
+
+#deploy::after {
+  background: url(./images/rails.gif) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#clouds::after {
+  background: url(./images/clouds.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#rakkit::after {
+  background: url(./images/rakkit-screenshot.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#mtt::after {
+  background: url(./images/mtt-screenshot1.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#mtt2::after {
+  background: url(./images/mtt-screenshot2.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#taggart::after {
+  background: url(./images/taggart-screenshot.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#pingle-marketing::after {
+  background: url(./images/pingle-marketing.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin-screenshot::after {
+  background: url(./images/akin-screenshot.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#akin-screenshot2::after {
+  background: url(./images/akin-screenshot2.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#addons::after {
+  background: url(./images/addons.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 0.5;
+}
+
+#analytics::after {
+  background: url(./images/analytics.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#intercom::after {
+  background: url(./images/intercom.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#intercom2::after {
+  background: url(./images/intercom2.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#newrelic::after {
+  background: url(./images/new-relic.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
+#scale::after {
+  background: url(./images/scale.jpg) no-repeat 0 0;
+  background-size: cover;
+  opacity: 1;
 }
 
 .active {

@@ -1,0 +1,1 @@
+ffmpeg -i pop.mov -pix_fmt rgb24 -r 10 -f gif - | gifsicle --optimize=3 --delay=4 --loop > pop1.gif
