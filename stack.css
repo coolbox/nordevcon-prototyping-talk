@@ -92,9 +92,9 @@ ul { font-size: 40px; }
 }
 
 #upstate::after {
-  background: url(./images/upstate.jpg) no-repeat 0 0;
+  background: url(./images/upstate3.jpg) no-repeat 0 0;
   background-size: cover;
-  opacity: 0.7;
+  opacity: 0.6;
 }
 
 #pingle::after {
@@ -255,6 +255,13 @@ ul { font-size: 40px; }
   background: url(./images/pingle-marketing.jpg) no-repeat 0 0;
   background-size: cover;
   opacity: 1;
+}
+
+#pop img {
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
 }
 
 #akin-screenshot::after {
