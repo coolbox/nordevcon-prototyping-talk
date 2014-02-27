@@ -200,6 +200,12 @@ ul { font-size: 40px; }
   opacity: 1;
 }
 
+#grouse::after {
+  background: url(./images/grouse.jpg) repeat 0 0;
+  background-size: cover;
+  opacity: 1;
+}
+
 #circles::after {
   background: url(./images/catcircles.jpg) repeat 40px -40px;
   opacity: 1;
