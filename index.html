@@ -1,10 +1,13 @@
-<!DOCTYPE html>
-<meta charset="utf-8">
+<html>
 <head>
-  <style>
-    @import url(stack.css);
-  </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" type="text/css" href="stylesheets/stack.css" media="screen" />
   <link href='http://fonts.googleapis.com/css?family=Roboto:900,700&subset=latin,cyrillic-ext' rel='stylesheet' type='text/css'>
+  <!--[if lt IE 9]>
+  <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+  <title>Prototyping With Heroku by Pete Roome (@zoltarSpeaks)</title>
 </head>
 <body class="overview">
   <section>
@@ -544,6 +547,17 @@
     <h2>@zoltarSpeaks <br> pete@betahive.com</h2>
   </section>
 
-  <script src="d3.v3.min.js"></script>
-  <script src="stack.v0.min.js"></script>
+  <script src="javascripts/d3.v3.min.js"></script>
+  <script src="javascripts/stack.v0.min.js"></script>
+  
+  <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-44962234-2");
+    pageTracker._trackPageview();
+    } catch(err) {}
+  </script>
 </body>
